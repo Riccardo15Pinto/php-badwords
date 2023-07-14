@@ -19,14 +19,16 @@ $my_second_string_lenght = strlen($my_second_string);
 </head>
 
 <body>
-    <div>
-        <h1>Parola da censurare : <?= $taboo ?></h1>
-        <h2>Testo originale : <?= $text ?></h2>
-        <h3>Lunghezza testo originale : <?= $my_first_string ?> caratteri</h3>
-    </div>
-    <div>
-        <h2>Testo modificato: <?= $my_second_string ?></h2>
-        <h3>Lunghezza testo modificato : <?= $my_second_string_lenght ?> caratteri</h3>
+    <div class="container">
+        <div>
+            <h1>Parola da censurare : <?= $taboo ?></h1>
+            <h2>Testo originale : <?= $text ?></h2>
+            <h3>Lunghezza testo originale : <?= $my_first_string ?> caratteri</h3>
+        </div>
+        <div>
+            <h2>Testo modificato: <?= $my_second_string ?></h2>
+            <h3>Lunghezza testo modificato : <?= $my_second_string_lenght ?> caratteri</h3>
+        </div>
     </div>
 </body>
 
